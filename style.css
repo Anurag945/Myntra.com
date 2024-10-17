@@ -64,19 +64,24 @@ input::placeholder {
     margin-bottom: 2%;
 }
 
-
+/* indicator */
 .carousel-indicators [data-bs-target] {
-    background-color: lightgrey; /* Light grey for inactive dots */
+    background-color: lightgrey;
     width: 6px;
     height: 6px;
     border-radius: 50%;
 }
 
 .carousel-indicators .active {
-    background-color: darkgrey; /* Dark grey for active dot */
+    background-color: darkgrey; 
 }
 
-/* Position indicators below the image */
+
 .carousel-indicators {
-    bottom: -43px; /* Adjust this to position the dots below the image */
+    bottom: -43px; 
+}
+
+
+.offers{
+    margin-top: 5vh;
 }
