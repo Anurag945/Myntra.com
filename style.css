@@ -1,41 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
 
-        #ulist {
+#ulist {
             font-weight: 700;
             font-size: 11px;
             margin-top: 29px;
         }
 
-        #ulist>li {
+#ulist>li {
             margin-right: 27px;
         }
 
-        input::placeholder {
+input::placeholder {
             font-size: 11px;
             font-weight: 400;
             margin-top: 15px;
 
         }
 
-        #place::after {
+#place::after {
             background-color: white;
         }
 
-        #place {
+#place {
             background-color: #f5f5f6;
             height: 30px;
             border: none;
         }
 
-        .font {
+.font {
             font-size: 10px;
 
 
         }
 
-        #icon {
+#icon {
             justify-content: space-evenly;
             font-size: 13px;
             color: rgb(93, 89, 89);
 
         }
-    
+
+.hero-img{
+    width:95.4vw ;
+}
+
+.hero-img:nth-child(4){
+    margin-bottom: 2%;
+}
+
+.scroller{
+
+}
+
