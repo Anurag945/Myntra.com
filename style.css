@@ -66,8 +66,8 @@ input::placeholder {
 /* indicator */
 .carousel-indicators [data-bs-target] {
     background-color: lightgrey;
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
 }
 
@@ -85,3 +85,6 @@ input::placeholder {
     margin-top: 5vh;
 }
 
+.category{
+    margin-bottom: 3vh;
+}
