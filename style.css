@@ -2,9 +2,10 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
   font-family: 'Roboto', sans-serif;
+  background-color: red;
 }
 
 #ulist {
@@ -48,14 +49,34 @@ input::placeholder {
         }
 
 .hero-img{
-    width:95.4vw ;
+    width:100% ;
+
+}
+
+.hero-img2{
+    width:100% ;
+
+
 }
 
 .hero-img:nth-child(4){
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.scroller{
 
+.carousel-indicators [data-bs-target] {
+    background-color: lightgrey; /* Light grey for inactive dots */
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
 }
 
+.carousel-indicators .active {
+    background-color: darkgrey; /* Dark grey for active dot */
+}
+
+/* Position indicators below the image */
+.carousel-indicators {
+    bottom: -43px; /* Adjust this to position the dots below the image */
+}
