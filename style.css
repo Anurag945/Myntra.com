@@ -63,6 +63,10 @@ input::placeholder {
     margin-bottom: 2%;
 }
 
+.slide-height{
+    height: 45.5vh;
+}
+
 /* indicator */
 .carousel-indicators [data-bs-target] {
     background-color: lightgrey;
@@ -88,3 +92,4 @@ input::placeholder {
 .category{
     margin-bottom: 3vh;
 }
+
