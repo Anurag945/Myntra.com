@@ -12,8 +12,9 @@ html, body {
     margin-top: 29px;
 }
 
-#ulist>li {
-    margin-right: 27px;
+#ulist li {
+    margin-right: 10px;
+    margin-top: 2.4vh;
 }
 
 input::placeholder {
